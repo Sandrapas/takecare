@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(247, 208, 226);*/
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* ESTO VE PROBANDO*/.cajas{display: flex; min-height: 660px; flex-wrap: wrap;}
+
+#titulo {
+  /* background-color:rgb(235, 171, 164);*/
+  background-image: url(./imagenes/fondo\ menu.jpg);
+  background-size: cover;
+  border: 1px solid rgb(231, 193, 110);
+  color: rgb(82, 60, 4);
+  font-style: italic;
+  min-height: 15px;
+  font-size: 2em;
+  padding: 30px;
+}
+
+#logo {
+  /* background-color: rgb(235, 171, 164);*/
+  background: none;
+  position: relative;
+  top: 20px;
+  right: 20px;
+  width: 70px;
+}
+/* ----------------- FIN CABECERA -----------------------*/
+
+/* ----------------- 1º CAJA/MENU -----------------------*/
+
+main {
+  background-image: url(./imagenes/fondoblancoskincare.jpg);
+  background-size: cover;
+}
+
+#c1 {
+  border: 1px solid rgb(231, 193, 110);
+  padding: 5px;
+  background-image: url(./imagenes/fondomenuskin.jpg);
+  background-size: cover;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+
+}
+#c1 article li {display: none;}
+
+#c1 >article:hover >ol >li{display: contents;display: block;}
+
+#c1 >article:hover >ol{min-height: 100px;}
+
+#c1 article{width: calc(100%/4);text-align: center;}
+
+#c1 article h2 {margin-top: 15px;}
+
+#c1 li {list-style: none;}
+
+#c1 ol li a {text-decoration: none; color: black;}
+
+#c1 ol li a:hover {color: rgb(243, 9, 126);text-decoration: none;}
+
+#a2 { min-height: 60px;}
+/* ----------------- FIN 1º CAJA/MENU -----------------------*/
+
+
+#adorno{ width: 100%; min-height: 30px;  border: 1px solid rgb(231, 193, 110);
+}
+/* ----------------- 2º CAJA -----------------------*/
+
+#c2 {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a5 img{
+    width: 10%;
+    position: relative;
+    right: 500px;
+    bottom: 100px;
+}
+/* ----------------- FIN 2º CAJA -----------------------*/
+
+/* ----------------- 3º CAJA TIPO DE PIELES-----------------------*/
+
+#c3 {
+  border: 1px solid rgb(231, 193, 110);
+  padding: 20px;
+  width: 50%;
+  min-height: 1090px;
+  background-image: url(./imagenes/fondos\ cajas.jpg);
+  background-size: cover;
+ /* display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 70px;*/
+}
+#c3 h2{text-align: center;}
+
+#c3 article a{text-decoration: none; color: rgb(139, 2, 75);}
+
+#c3 article a:hover{
+    color: rgb(243, 9, 126);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#fotos{display: flex;}
+
+#fotos figure img{min-height: 210px; width: 100%; }
+#dfotos{ text-align: center; margin: 25px;}
+
+
+/* ----------------- FIN 3º CAJA -----------------------*/
+
+/* ----------------- 4º CAJA ESTADOS DE LA PIEL----------------------*/
+
+#c4 {
+  border: 1px solid rgb(231, 193, 110);
+  padding: 20px;
+  width: 49%;
+  margin-left: 9px;
+  background-image: url(./imagenes/fondos\ cajas.jpg);
+  background-size: cover;
+ /* position: relative;
+  bottom: 1160px;
+  left:675px ;*/
+}
+#c4 h2{text-align: center;}
+
+#c4 article a{text-decoration: none; color: rgb(139, 2, 75);}
+
+#c4 article a:hover{
+    color: rgb(243, 9, 126);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#a11 figure img{width: 46%; margin-left: 150px;}
+/* ----------------- FIN 4º CAJA ESTADOS DE LA PIEL -----------------------*/
+
+/* ----------------- 5º CAJA MITOS DE LA PIEL -----------------------*/
+
+#c5 {
+  border: 1px solid rgb(231, 193, 110);
+  padding: 20px;
+  width: 50%;
+  min-height: 1090px;
+  margin-top: 3px;
+  background-image: url(./imagenes/fondos\ cajas.jpg);
+  background-size: cover;
+ /* display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1150px;*/
+}
+#c5 h2{text-align: center;}
+
+#c5 article a{text-decoration: none; color: rgb(139, 2, 75);}
+
+#c5 article a:hover{
+    color: rgb(243, 9, 126);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#f{
+  width: 10%;
+  position: relative;
+  top: 66px;
+  left: 60px;
+
+}
+
+#t{
+  width: 10%;
+  position: relative;
+  left: 520px;
+  bottom: 70px;
+}
+
+#depende{
+  color: rgb(160, 106, 6);
+}
+#mito{color: red;}
+
+/* ----------------- FIN 5º CAJA MITOS DE LA PIEL -----------------------*/
+
+
+/* -----------------  6º CAJA PRODUCTOS PARA CADA PIEL -----------------------*/
+
+
+#c6 {
+  border: 1px solid rgb(231, 193, 110);
+  padding: 20px;
+  width: 49%;
+  margin-left: 9px;
+  margin-top: 3px;
+  min-height: 1090px;
+  background-image: url(./imagenes/fondos\ cajas.jpg);
+  background-size: cover;
+  /*display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 70px;*/
+}
+#c6 h2{text-align: center;}
+
+
+#c6 article a{text-decoration: none; color: rgb(139, 2, 75);}
+
+#c6 article a:hover{
+    color: rgb(243, 9, 126);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#c6 span{ text-decoration:underline;}
+
+#c6 ol{margin-left: 20px; }
+
+#c6 table { 
+  text-align: center; 
+  margin-left:180px;  
+  border: 1px solid rgb(139, 1, 116);
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+#c6 table td{   border: 1px solid rgb(139, 1, 116);}
+
+#formu{  margin-top: 25px; background-image: url(./imagenes/fondoblancoskincare.jpg); background-size: cover;}
+.etiquetas{  margin-left: 200px;}
+#formu h3{padding: 10px; }
+ 
+
+
+/* ----------------- FIN 6º CAJA PRODUCTOS PARA CADA PIEL -----------------------*/
+
+
+/*------------------FOOTER-----------------*/
+
+
+#footer {
+  border: 1px solid rgb(231, 193, 110);
+  font-style: italic;
+  width: 100%;
+  background-image: url(./imagenes/footer\ fondo.jpg);
+  background-size: cover;
+  min-height: 20px;
+  font-size: 1.4em;
+  padding: 2px;
+}
+#footer section article{margin: 2px;}
+
+#footer img{
+  width: 30px;
+  display: flex;
+  bottom: 26px;
+  position: relative;
+  left: 220px;
+}
+
+.redes{
+  display: flex;
+  position: relative;
+  bottom: 34px;
+  left: 35px;
+}
+/*------------------FIN FOOTER-----------------*/
+
+
+
+
+@media screen and (max-width: 1060px){
+  #c1{font-size: 1em; }
+
+  #c2{width: 100%;padding: 50px;}
+  #a5 img{
+    width: 15%;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+
+
+  #c3{width: 100%; }
+  #fotos{display: flex; margin-left: 90px;}
+
+  #c4{ width: 100%;margin: 0; margin-top: 5px;}
+
+  #c5{ width: 100%; margin-top: 5px;}
+  #f{width: 10%; position: relative;top: 100px;left: 250px; }
+  #t{width: 10%; position: relative;left: 650px; bottom: 90px;}
+
+  #c6{ width: 100%;margin: 0;}
+  .etiquetas{  margin-left: 400px;}
+  #formu h3{padding: 5px; }
+  #c6 table{margin-left: 400px;}
+
+
+
+
+
+  #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1000px){
+  #c1{font-size: 1em; }
+
+  #c2{width: 100%;padding: 50px;}
+  #a5 img{
+    width: 15%;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+
+
+  #c3{width: 100%; }
+  #fotos{display: flex; margin-left: 90px;}
+
+  #c4{ width: 100%;margin: 0;}
+
+  #c5{ width: 100%;}
+  #f{width: 10%; position: relative;top: 100px;left: 190px; }
+  #t{width: 10%; position: relative;left: 600px; bottom: 75px;}
+
+  #c6{ width: 100%;margin: 0;}
+  .etiquetas{  margin-left: 100px;}
+  #formu h3{padding: 5px; }
+
+
+
+
+
+  #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  #c1{font-size: 1em; }
+
+  #c2{width: 100%;padding: 50px;}
+  #a5 img{
+    width: 15%;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+
+
+  #c3{width: 100%; }
+  #fotos{display: flex; flex-wrap: wrap;}
+
+  #c4{ width: 100%;margin: 0;}
+
+  #c5{ width: 100%;}
+  #f{width: 10%; position: relative;top: 100px;left: 150px; }
+  #t{width: 10%; position: relative;left: 580px; bottom: 65px;}
+
+  #c6{ width: 100%;margin: 0;}
+  .etiquetas{  margin-left: 100px;}
+  #formu h3{padding: 5px; }
+
+
+
+
+
+  #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 850px){
+  #c1{font-size: 1em; }
+
+  #c2{width: 100%;padding: 50px;}
+  #a5 img{
+    width: 15%;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+
+
+  #c3{width: 100%; }
+  #fotos{display: flex; flex-wrap: wrap; margin: 0;}
+
+  #c4{ width: 100%;margin: 0;}
+
+  #c5{ width: 100%;}
+  #c5 h2{text-align: center;margin-left: 10px;}
+
+  #f{width: 10%; position: relative;top: 66px;left: 1px; }
+  #t{width: 10%; position: relative;left: 350px; bottom: 35px;}
+
+  #c6{ width: 100%;margin: 0;}
+  .etiquetas{  margin-left: 100px;}
+  #formu h3{padding: 5px; }
+  #c6 table{ margin: 0;}
+
+
+
+
+
+  #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+}

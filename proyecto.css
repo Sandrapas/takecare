@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(245, 221, 160);*/
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 55px;
+}
+#titulo {
+  /* background-color:rgb(235, 171, 164);*/
+  background-image: url(./imagenes/fondo\ menu.jpg);
+  background-size: cover;
+  border: 1px solid rgb(231, 193, 110);
+  color: rgb(82, 60, 4);
+  font-style: italic;
+  min-height: 55px;
+  font-size: 3em;
+  padding: 50px;
+}
+
+/*
+.buscador {
+  float: right;
+  margin-right: 2%;
+  border: 0;
+  background-color: rgb(199, 190, 190);
+}*/
+#logo {
+  /* background-color: rgb(235, 171, 164);*/
+  background: none;
+  position: relative;
+  top:20px;
+  right: 20px;
+  width: 90px;
+}
+
+/* ---------------------MENU ---------------------------*/
+#menu ul {
+  display: block;
+}
+#menu li {
+  border: 1px solid rgb(231, 193, 110);
+  list-style-type: none;
+  min-height: 27px;
+  text-align: center;
+  font-size: 1.35em;
+  width: calc(100% / 3);
+  float: left;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: black;
+  /* background-color: rgb(235, 224, 164);*/
+  /*border: 1px solid rgb(145, 4, 4);*/
+  background-image: url(./imagenes/fondo\ menu.jpg);
+  background-size: cover;
+  display: block;
+}
+
+#menu a:hover {
+  color: crimson;
+  text-decoration: underline;
+  background-image: url(./imagenes/fondo\ 2\ menu.jpg);
+}
+
+/* ----------------- FIN MENU -----------------------*/
+
+/* ----------------- 1ª CAJA -----------------------*/
+#c1 {
+  background-image: url(./imagenes/fondo\ menu.jpg);
+  background-size: cover;
+  clear: both;
+
+}
+
+#a1 h1 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(44, 38, 2);
+  font-size: 1em;
+}
+#a2 h1 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(44, 38, 2);
+  font-size: 1em;
+
+}
+
+span{
+  color: rgb(124, 102, 45);
+  text-decoration: underline;
+  background-image: none;
+}
+/* ----------------- FIN 1ª CAJA -----------------------*/
+
+/* ----------------- 2ª CAJA -----------------------*/
+#c2{
+  padding: 20px;
+  float: left;
+  width: 33%;
+  min-height: 660px;
+  background-image: url(./imagenes/pagprinc/skincare.jpg);
+  background-size: cover;
+  border: 2px solid rgb(231, 193, 110);
+  
+}
+
+
+/* ----------------- FIN 2ª CAJA -----------------------*/
+
+/* ----------------- 3ª CAJA -----------------------*/
+
+#c3{
+  padding: 20px;
+  float: left;
+  width: 33%;
+  min-height: 660px;
+  background-image: url(./imagenes/pagprinc/fashion.jpg);
+  background-size: cover;
+  border: 2px solid rgb(231, 193, 110);
+
+  
+}
+/* ----------------- FIN 3ª CAJA -----------------------*/
+
+/* ----------------- 4ª CAJA -----------------------*/
+#c4{
+  padding: 20px;
+  float: left;
+  width: 34%;
+  min-height: 660px;
+  background-image: url(./imagenes/videofondo.jpg);
+  background-size: cover;
+  border: 2px solid rgb(231, 193, 110);
+
+}
+
+/* ----------------- FIN 4ª CAJA -----------------------*/
+
+
+@media screen and (max-width: 850px){
+  #c1{
+    display:none
+  }
+  #c2{
+    float: left;
+    width: 100%;
+  }
+  #c3{
+    float: left;
+    width: 100%;
+  }
+  #c4{
+    float: left;
+    width: 100%;
+  }
+  #titulo{
+    font-size: 2em;
+  }
+  #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+}
+
+/*
+@media screen and (max-width: 651px){
+  #a2 {
+    display: none;
+  }
+  /*
+  #c2{
+    float: left;
+    width: 33%;
+    height: 412px;
+  }
+  #c3{
+    float: left;
+    width: 33%;
+    height: 412px;
+  }
+  #c4{
+    float: left;
+    width: 34%;
+    height: 412px;
+  }
+  #logo{
+    display: none;
+  }
+}*/
+
+/* ----------------- PIE DE PÁGINA -----------------------*/
+
+#footer {
+  border: 1px solid rgb(231, 193, 110);
+  font-style: italic;
+  background-image: url(./imagenes/footer\ fondo.jpg);
+  background-size: contain;
+  min-height: 40px;
+  font-size: 1.4em;
+  padding: 30px;
+}
+#footer section article{margin: 2px;}
+
+footer img{
+  position: relative;
+  width: 30px;
+  float: left;
+  left: 220px;
+  bottom: 26px;
+
+}
+
+#tiktok{
+  position: relative;
+  width: 30px;
+  left:250px;  
+
+}
+/* ----------------- FIN PIE DE PÁGINA -----------------------*/
+
+

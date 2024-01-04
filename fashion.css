@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(247, 208, 226);*/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  /* ESTO VE PROBANDO*/.cajas{display: flex; min-height: 660px; flex-wrap: wrap;}
+  
+  #titulo {
+    /* background-color:rgb(235, 171, 164);*/
+    background-image: url(./imagenes/fondo\ menu.jpg);
+    background-size: cover;
+    border: 1px solid rgb(231, 193, 110);
+    color: rgb(82, 60, 4);
+    font-style: italic;
+    min-height: 15px;
+    font-size: 2em;
+    padding: 30px;
+  }
+  
+  #logo {
+    /* background-color: rgb(235, 171, 164);*/
+    background: none;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 70px;
+  }
+
+
+  /*--------- MAIN-----------*/
+
+  main{ 
+    display: flex; 
+    flex-wrap: wrap;
+    background-image: url(./imagenes/fashion/fashionfondotodo.jpg);
+    background-size: cover;
+}
+  /*--------- FIN MAIN-----------*/
+
+
+/*---------  MENU-----------*/
+
+#a1 ol{ 
+    list-style: none; 
+    border: 1px solid rgb(231, 193, 110);
+    padding: 15px;
+    width: 100%;
+    background-image: url(./imagenes/fashion/fashionmenu.jpg);
+    background-size: cover;
+    text-align: center;
+
+  }
+ #a1{
+    /*margin-left: 5px;*/ display: flex; 
+ }
+
+ #a1 ol a{ text-decoration: none; color: black;}
+
+
+  /*--------- FIN MENU-----------*/
+
+   /*--------- CAJA-----------*/
+
+  #c2{
+     /*margin-left: 5px;*/   
+     width: 100%;
+     
+  }
+
+  #c2 article{ 
+    margin: 15px;
+    text-align: center;   
+    border: 1px solid rgb(231, 193, 110);
+    min-height: 400px;
+
+    /*min-height: 660px;  EN EL MEDIA QUERY DE ORDENADOR*/
+
+  }
+  
+  #cuerpos h1 { margin: 15px;}
+  #poten li{ margin: 10px;}
+
+  #cuerpos article ol{ text-align:start; margin: 25px;}
+
+  #cuerpos article img{  width: 60%; } /* PARA EL MEDIA QUERY ORDENADOR DISPLAY:FLEX*/
+
+
+  #tipestilo h1 { margin: 15px;}
+  #tipestilo a { color: rgb(75, 31, 145); text-decoration: none;}
+  #tipestilo a:hover { color: rgb(1, 99, 69); font-style:italic;}
+
+
+  #tipestilo li{ text-align:start; margin: 25px;}
+
+  #tipestilo  img{  width: calc(100%/4);margin-left: 20px; margin-top: 10px; } 
+  #y2k1{ height: 150px;}
+
+  #colorimetría p{margin: 6px; }
+  #colorimetría video{ width: 90%;}
+   /*---------  FIN CAJA-----------*/
+
+   /*--------- FOOTER-----------*/
+
+  
+  #footer {
+    border: 1px solid rgb(231, 193, 110);
+    font-style: italic;
+    width: 96%;
+    background-image: url(./imagenes/footer\ fondo.jpg);
+    background-size: cover;
+    min-height: 20px;
+    font-size: 1.4em;
+    padding: 12px;
+    margin: 10px;
+  }
+  #footer section article{margin: 2px;}
+
+  #footer img{
+    width: 30px;
+    display: flex;
+    bottom: 26px;
+    position: relative;
+    left: 220px;
+  }
+  
+  .redes{
+    display: flex;
+    position: relative;
+    bottom: 34px;
+    left: 35px;
+  }
+
+/*---------  FIN FOOTER-----------*/
+
+
+
+@media screen and (min-width: 1060px){
+
+  #a1 ol{ width: 450px}
+  
+  #tipestilo ul{ display: flex; flex-direction: row;}
+  
+  #colorimetría video{ width: 70%;}
+
+
+  #logo{
+   width: 60px;
+   right: 10px;
+ }
+
+ #footer {
+   width: 1317px;
+
+
+   padding: 12px;
+ }
+
+}
+
+
+@media screen and (min-width: 1000px){
+
+}
+
+@media screen and (min-width: 900px){
+
+
+
+
+}
+@media screen and (min-width: 850px){
+}
+
+
+
+
+
+/*
+
+@media screen and (min-width: 1060px){
+ 
+ 
+    #a1 ol{ width: 450px}
+
+   #tipestilo ul{ display: flex; flex-direction: row;}
+  
+   #colorimetría video{ width: 70%;}
+
+
+   #logo{
+    width: 60px;
+    right: 10px;
+  }
+
+  #footer {
+    width: 1317px;
+
+
+    padding: 12px;
+  }
+
+}
+
+
+@media screen and (min-width: 550px){
+  
+  #a1 ol{ width: 315px;}
+
+ #colorimetría video{ width: 50%;}
+
+
+ #logo{
+  width: 60px;
+  right: 10px;
+}
+
+#footer {
+  width: 1317px;
+
+
+  padding: 12px;
+}
+
+}*/
+/*
+@media screen and (max-width: 0px){
+ 
+ 
+  #a1 ol{ width: 100%}
+
+ #colorimetría video{ width: 90%;}
+
+
+ #logo{
+  width: 60px;
+  right: 10px;
+}
+
+#footer {
+  width: 1317px;
+
+
+  padding: 12px;
+}
+
+}
+
+
+*/
+
+
+
